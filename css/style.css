@@ -121,7 +121,7 @@ body {
 
 .hero {
 
-    min-height: 100vh;
+    min-height: 75vh;
 
     display: flex;
 
@@ -131,7 +131,7 @@ body {
 
     text-align: center;
 
-    padding: 100px 20px 40px;
+    padding: 80px 20px 60px;
 
 
 background:

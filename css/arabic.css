@@ -471,7 +471,7 @@ box-shadow: 0 10px 30px rgba(0,0,0,0.25);
 
         gap: 12px;
 
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
 
         justify-content: center;
 
@@ -508,6 +508,99 @@ box-shadow: 0 10px 30px rgba(0,0,0,0.25);
     .profile-logo {
         width: 100px;
         height: 100px;
+    }
+
+}
+
+/* =========================
+   Arabic / RTL Version
+   ========================= */
+
+html {
+    direction: rtl;
+}
+
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Navigation */
+
+.navbar {
+    direction: rtl;
+}
+
+.nav-links {
+    direction: rtl;
+}
+
+/* Hero */
+
+.hero {
+    direction: rtl;
+}
+
+/* Sections */
+
+.section {
+    direction: rtl;
+}
+
+/* Cards */
+
+.cards {
+    direction: rtl;
+}
+
+.card {
+    text-align: right;
+}
+
+/* Learning */
+
+.learning {
+    direction: rtl;
+}
+
+.learning p {
+    text-align: right;
+}
+
+/* Contact */
+
+#contact {
+    text-align: right;
+}
+
+/* Footer */
+
+.footer {
+    direction: rtl;
+    text-align: center;
+}
+
+/* Keep the logo and hero centered */
+
+.logo {
+    text-align: center;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        direction: rtl;
+    }
+
+    .nav-links {
+        direction: rtl;
+        justify-content: center;
     }
 
 }
